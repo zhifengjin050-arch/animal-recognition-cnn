@@ -1,8 +1,1 @@
-torch>=2.0.0
-torchvision>=0.15.0
-flask>=2.0.0
-Pillow>=9.0.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-scikit-learn>=1.0.0
-requests>=2.28.0
+dG9yY2g+PTIuMC4wCnRvcmNodmlzaW9uPj0wLjE1LjAKZmxhc2s+PTIuMC4wCmd1bmljb3JuPj0yMC4xLjAKbnVtcHk+PTEuMjEuMApQaWxsb3c+PTkuMC4wCm1hdHBsb3RsaWI+PTMuNS4wCnNjaWtpdC1sZWFybj49MS4wLjAKcmVxdWVzdHM+PTIuMjguMAo=
