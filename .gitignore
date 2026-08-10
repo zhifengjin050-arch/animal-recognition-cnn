@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# 模型权重文件
+*.pth
+*.pt
+*.onnx
+*.h5
+*.weights
+
+# 数据集
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 训练输出
+训练输出/
+训练报告/
+优化训练报告/
+数据集报告/
+数据集快照/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 临时文件
+*.tmp
+temp_*
