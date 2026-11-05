@@ -1,3 +1,26 @@
+![从训练到推理的图像分类实践](docs/showcase/cover.svg)
+
+## ✨ 项目速览
+
+- 覆盖八类动物识别，将迁移学习、模型加载与图片预处理整合到应用流程。
+- Web 推理接口返回 Top-5 概率与耗时，置信度低于 0.60 时标记为未知。
+- 提供数据质量检查、训练脚本、可视化页面与桌面 GUI，便于围绕数据和模型继续实验。
+
+### 🧭 源码阅读路线
+
+- **[推理接口](src/app.py)**
+- **[训练入口](src/train_model.py)**
+- **[数据管理](src/data_manager.py)**
+- **[配置与指标](src/config.py)**
+
+### 🖼️ 项目界面
+
+![从训练到推理的图像分类实践界面](images/web_ui_identify.png)
+
+> **复现说明**：Web 端读取 `models/最终动物识别模型_10k.pth`；训练配置中的输出路径不同，需核对权重文件和类别顺序后再运行。现有 README 的 92.29% 与 Web 接口内的 91.04% 为不同的既有指标记录，本次未重新评测；应以同一权重、数据划分和评测脚本的实际结果为准。
+
+---
+
 # 🐾 Animal Recognition CNN — 基于CNN的常见动物种类识别系统
 
 <p align="center">
@@ -194,7 +217,7 @@ cd animal-recognition-cnn
 pip install -r requirements.txt
 ```
 
-> 模型权重文件请从 [Releases](https://github.com/zhifengjin050-arch/animal-recognition-cnn/releases) 下载，放入 `models/` 目录。
+> 请准备与当前模型结构和类别顺序匹配的权重，Web 端要求路径为 `models/最终动物识别模型_10k.pth`。仓库仅含权重目录占位文件；训练输出与部署路径需自行对齐。
 
 ### 快速体验
 
