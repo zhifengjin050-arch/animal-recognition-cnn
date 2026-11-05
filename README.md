@@ -1,7 +1,9 @@
-![从训练到推理的图像分类实践](docs/showcase/cover.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/hero-light.svg"><img src="docs/showcase/hero-light.svg" alt="Animal Recognition CNN · 从训练到推理的图像分类实践" width="100%"></picture>
 
 <!-- engineering-guide:start -->
-## 🧭 工程导读 · 从场景到实现
+<a id="-工程导读--从场景到实现"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-01-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-01-light.svg"><img src="docs/showcase/section-01-light.svg" alt="工程导读 · 从场景到实现" width="100%"></picture></h2>
+
 
 **图像分类、推理服务与实验复现**。围绕八类动物图像，连接模型训练、数据处理与 Web / 桌面推理展示，重点体现从模型到应用的完整路径。
 
@@ -24,7 +26,9 @@ flowchart LR
 
 
 
-## ✨ 项目速览
+<a id="-项目速览"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-02-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-02-light.svg"><img src="docs/showcase/section-02-light.svg" alt="项目速览" width="100%"></picture></h2>
+
 
 - 覆盖八类动物识别，将迁移学习、模型加载与图片预处理整合到应用流程。
 - Web 推理接口返回 Top-5 概率与耗时，置信度低于 0.60 时标记为未知。
@@ -63,7 +67,9 @@ flowchart LR
 
 ---
 
-## 📋 目录
+<a id="-目录"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-03-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-03-light.svg"><img src="docs/showcase/section-03-light.svg" alt="目录" width="100%"></picture></h2>
+
 
 - [项目背景](#项目背景)
 - [功能特性](#功能特性)
@@ -79,7 +85,9 @@ flowchart LR
 
 ---
 
-## 项目背景
+<a id="项目背景"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-04-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-04-light.svg"><img src="docs/showcase/section-04-light.svg" alt="项目背景" width="100%"></picture></h2>
+
 
 本系统以**8种常见动物**（牛、狗、猫、羊、虎、鸡、鸭、狮子）为识别对象，基于**卷积神经网络（CNN）**和**ResNet18 迁移学习**技术，构建了一套完整的动物种类智能识别解决方案。
 
@@ -102,7 +110,9 @@ flowchart LR
 
 ---
 
-## 功能特性
+<a id="功能特性"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-05-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-05-light.svg"><img src="docs/showcase/section-05-light.svg" alt="功能特性" width="100%"></picture></h2>
+
 
 ### 🎯 核心功能
 
@@ -134,7 +144,9 @@ flowchart LR
 
 ---
 
-## 技术架构
+<a id="技术架构"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-06-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-06-light.svg"><img src="docs/showcase/section-06-light.svg" alt="技术架构" width="100%"></picture></h2>
+
 
 ### 模型架构
 
@@ -160,7 +172,9 @@ flowchart LR
 
 ---
 
-## 模型性能
+<a id="模型性能"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-07-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-07-light.svg"><img src="docs/showcase/section-07-light.svg" alt="模型性能" width="100%"></picture></h2>
+
 
 ### 整体指标
 
@@ -195,7 +209,9 @@ flowchart LR
 
 ---
 
-## 项目结构
+<a id="项目结构"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-08-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-08-light.svg"><img src="docs/showcase/section-08-light.svg" alt="项目结构" width="100%"></picture></h2>
+
 
 ```
 animal-recognition-cnn/
@@ -225,7 +241,9 @@ animal-recognition-cnn/
 
 ---
 
-## 快速开始
+<a id="快速开始"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-09-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-09-light.svg"><img src="docs/showcase/section-09-light.svg" alt="快速开始" width="100%"></picture></h2>
+
 
 ### 环境要求
 
@@ -268,7 +286,9 @@ python system_train.py   # 或使用爬虫自动采集数据并训练
 
 ---
 
-## 使用说明
+<a id="使用说明"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-10-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-10-light.svg"><img src="docs/showcase/section-10-light.svg" alt="使用说明" width="100%"></picture></h2>
+
 
 ### Web 端功能
 
@@ -289,7 +309,9 @@ python system_train.py   # 或使用爬虫自动采集数据并训练
 
 ---
 
-## 数据集说明
+<a id="数据集说明"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-11-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-11-light.svg"><img src="docs/showcase/section-11-light.svg" alt="数据集说明" width="100%"></picture></h2>
+
 
 ### 三级质量保障机制
 
@@ -310,7 +332,9 @@ python system_train.py   # 或使用爬虫自动采集数据并训练
 
 ---
 
-## 部署指南
+<a id="部署指南"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-12-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-12-light.svg"><img src="docs/showcase/section-12-light.svg" alt="部署指南" width="100%"></picture></h2>
+
 
 ### Nginx + Flask 生产部署
 
@@ -334,7 +358,9 @@ CMD ["python", "src/app.py"]
 
 ---
 
-## 贡献指南
+<a id="贡献指南"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-13-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-13-light.svg"><img src="docs/showcase/section-13-light.svg" alt="贡献指南" width="100%"></picture></h2>
+
 
 欢迎贡献！请遵循 [Conventional Commits](https://www.conventionalcommits.org/) 规范。
 
@@ -345,7 +371,9 @@ CMD ["python", "src/app.py"]
 
 ---
 
-## 许可证
+<a id="许可证"></a>
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="docs/showcase/section-14-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/showcase/section-14-light.svg"><img src="docs/showcase/section-14-light.svg" alt="许可证" width="100%"></picture></h2>
+
 
 本项目采用 [MIT License](LICENSE) 开源许可证。
 
