@@ -7,72 +7,86 @@
     {
       "id": "section-01",
       "title": "工程导读 · 从场景到实现",
-      "caption": "01 / PROJECT DOCUMENTATION"
+      "caption": "01 / PROJECT DOCUMENTATION",
+      "icon": "guide"
     },
     {
       "id": "section-02",
       "title": "项目速览",
-      "caption": "02 / PROJECT DOCUMENTATION"
+      "caption": "02 / PROJECT DOCUMENTATION",
+      "icon": "features"
     },
     {
       "id": "section-03",
       "title": "目录",
-      "caption": "03 / PROJECT DOCUMENTATION"
+      "caption": "03 / PROJECT DOCUMENTATION",
+      "icon": "guide"
     },
     {
       "id": "section-04",
       "title": "项目背景",
-      "caption": "04 / PROJECT DOCUMENTATION"
+      "caption": "04 / PROJECT DOCUMENTATION",
+      "icon": "guide"
     },
     {
       "id": "section-05",
       "title": "功能特性",
-      "caption": "05 / PROJECT DOCUMENTATION"
+      "caption": "05 / PROJECT DOCUMENTATION",
+      "icon": "features"
     },
     {
       "id": "section-06",
       "title": "技术架构",
-      "caption": "06 / PROJECT DOCUMENTATION"
+      "caption": "06 / PROJECT DOCUMENTATION",
+      "icon": "architecture"
     },
     {
       "id": "section-07",
       "title": "模型性能",
-      "caption": "07 / PROJECT DOCUMENTATION"
+      "caption": "07 / PROJECT DOCUMENTATION",
+      "icon": "performance"
     },
     {
       "id": "section-08",
       "title": "项目结构",
-      "caption": "08 / PROJECT DOCUMENTATION"
+      "caption": "08 / PROJECT DOCUMENTATION",
+      "icon": "folder"
     },
     {
       "id": "section-09",
       "title": "快速开始",
-      "caption": "09 / PROJECT DOCUMENTATION"
+      "caption": "09 / PROJECT DOCUMENTATION",
+      "icon": "start"
     },
     {
       "id": "section-10",
       "title": "使用说明",
-      "caption": "10 / PROJECT DOCUMENTATION"
+      "caption": "10 / PROJECT DOCUMENTATION",
+      "icon": "guide"
     },
     {
       "id": "section-11",
       "title": "数据集说明",
-      "caption": "11 / PROJECT DOCUMENTATION"
+      "caption": "11 / PROJECT DOCUMENTATION",
+      "icon": "database"
     },
     {
       "id": "section-12",
       "title": "部署指南",
-      "caption": "12 / PROJECT DOCUMENTATION"
+      "caption": "12 / PROJECT DOCUMENTATION",
+      "icon": "deploy"
     },
     {
       "id": "section-13",
       "title": "贡献指南",
-      "caption": "13 / PROJECT DOCUMENTATION"
+      "caption": "13 / PROJECT DOCUMENTATION",
+      "icon": "collaboration"
     },
     {
       "id": "section-14",
       "title": "许可证",
-      "caption": "14 / PROJECT DOCUMENTATION"
+      "caption": "14 / PROJECT DOCUMENTATION",
+      "icon": "license"
     }
   ]
 }
